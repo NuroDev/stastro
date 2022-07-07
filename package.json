@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@astrojs/solid-js": "^0.2.0",
+    "@unocss/preset-wind": "^0.43.2",
     "astro": "^1.0.0-beta.64",
     "typescript": "^4.7.4",
     "unocss": "^0.43.2"

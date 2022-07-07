@@ -646,7 +646,7 @@
     "@unocss/core" "0.43.2"
     ohmyfetch "^0.4.18"
 
-"@unocss/preset-wind@0.43.2":
+"@unocss/preset-wind@0.43.2", "@unocss/preset-wind@^0.43.2":
   version "0.43.2"
   resolved "https://registry.yarnpkg.com/@unocss/preset-wind/-/preset-wind-0.43.2.tgz#f6e687eb52aa119747e38235cf42a9412e3acfc3"
   integrity sha512-S81Itn+0Wh9P1TxPKubv5ywNk8d81VnS0m2xNPb2zp0xCE2ejzomB4SkaAN97ExRlyYd+aMZWMmz/xgU0iVmUA==
