@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "build": {
+    "env": {
+      "ENABLE_VC_BUILD": "1"
+    }
+  },
+  "public": true,
+  "regions": ["lhr1"]
+}
