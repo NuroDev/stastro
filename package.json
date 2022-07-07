@@ -3,7 +3,8 @@
   "name": "stastro",
   "version": "1.0.0",
   "scripts": {
-    "build": "astro build",
+    "build": "yarn check && astro build",
+    "check": "astro check && tsc --noEmit",
     "dev": "astro dev",
     "preview": "astro preview",
     "start": "astro dev"
