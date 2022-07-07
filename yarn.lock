@@ -362,7 +362,14 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
-"@iconify/types@^1.1.0":
+"@iconify-json/lucide@^1.1.36":
+  version "1.1.36"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.1.36.tgz#8df733324cc2c24d3d2085d40cc97aa7998e2d5c"
+  integrity sha512-b2CKgI50Am4Bh2VWJFQepz6yKXpBHA4GXCV/Cgzn6WX3UGEe1E6ETaY5EzxwE9KrRy96J3CamjDOyf+vduvDQg==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/types@*", "@iconify/types@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-1.1.0.tgz#dc15fc988b1b3fd558dd140a24ede7e0aac11280"
   integrity sha512-Jh0llaK2LRXQoYsorIH8maClebsnzTcve+7U3rQUSnC11X4jtPnFuyatqFLvMxZ8MLG8dB4zfHsbPfuvxluONw==
@@ -599,7 +606,7 @@
   dependencies:
     "@unocss/core" "0.43.2"
 
-"@unocss/preset-icons@0.43.2":
+"@unocss/preset-icons@0.43.2", "@unocss/preset-icons@^0.43.2":
   version "0.43.2"
   resolved "https://registry.yarnpkg.com/@unocss/preset-icons/-/preset-icons-0.43.2.tgz#03a4a23bfd7b2da3873fb998658cf8232b4f1b4e"
   integrity sha512-u1XDiNc1t16PxE7dpvfW5BQQ9hqn9vy95U0Oam2wFabSjHS2SJZt1He6L2y8I/ozjRmcePzuqMsy4QgokaPX7w==
