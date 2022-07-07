@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "stastro",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "solid-js": "^1.4.3"
+  },
+  "devDependencies": {
+    "@astrojs/solid-js": "^0.2.0",
+    "astro": "^1.0.0-beta.64",
+    "typescript": "^4.7.4"
+  }
+}
