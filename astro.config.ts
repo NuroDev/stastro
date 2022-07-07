@@ -11,7 +11,7 @@ import PresetIcons from "@unocss/preset-icons";
 import PresetWind from "@unocss/preset-wind";
 
 export default defineConfig({
-  adapter: VercelAdapter(),
+  // adapter: VercelAdapter(),
   integrations: [solidJs()],
   vite: {
     plugins: [
