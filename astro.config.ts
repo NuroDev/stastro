@@ -18,7 +18,7 @@ export default defineConfig({
       // ...
     }),
   ],
-  site: process.env.VERCEL ? process.env.VERCEL_URL : undefined,
+  // site: process.env.VERCEL ? process.env.VERCEL_URL : undefined,
   vite: {
     plugins: [
       WindiCSS({
