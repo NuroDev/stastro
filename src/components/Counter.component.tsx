@@ -1,10 +1,8 @@
 import { createSignal } from "solid-js";
 
-import type { JSX } from "solid-js";
+import type { WithChildren } from "~/types";
 
-interface CounterProps {
-  children?: JSX.Element;
-}
+interface CounterProps extends WithChildren {}
 
 export function Counter({ children }: CounterProps) {
   const [count, setCount] = createSignal(0);
