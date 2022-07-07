@@ -7,8 +7,10 @@ import WindiCSS from "vite-plugin-windicss";
  */
 import VercelAdapter from "@astrojs/vercel/serverless";
 
+const isProduction = process.env.NODE_ENV === "production";
+
 export default defineConfig({
-  // adapter: VercelAdapter(),
+  adapter: isProduction ? VercelAdapter() : undefined,
   integrations: [solidJs()],
   vite: {
     plugins: [WindiCSS({})],
